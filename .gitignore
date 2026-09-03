@@ -1,0 +1,34 @@
+# 编译产物
+*.o
+*.out
+*.exe
+client
+server
+tju_tcp/client
+tju_tcp/server
+
+# 临时文件
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Vagrant 相关
+.vagrant/
+*.box
+
+# IDE 配置
+.vscode/
+.idea/
+*.code-workspace
+
+# 日志文件
+*.log
+
+# 调试文件
+*.dSYM/
+core
+
+# Windows 特定
+Thumbs.db
+desktop.ini
