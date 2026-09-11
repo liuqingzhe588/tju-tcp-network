@@ -1,34 +1,23 @@
-# 编译产物
-*.o
-*.out
+# 大文件
+*.msi
 *.exe
-client
-server
-tju_tcp/client
-tju_tcp/server
-
-# 临时文件
-*.tmp
-*.swp
-*~
-.DS_Store
-
-# Vagrant 相关
-.vagrant/
 *.box
 
-# IDE 配置
-.vscode/
-.idea/
-*.code-workspace
+# 填写指南和辅助文档（不提交）
+*填写指南*.md
+*实验报告内容*.md
+*完成总结*.md
+环境使用说明.md
 
-# 日志文件
+# 临时文件
+~$*
+*.tmp
 *.log
 
-# 调试文件
-*.dSYM/
-core
+# IDE
+.vscode/
+.idea/
 
-# Windows 特定
-Thumbs.db
-desktop.ini
+# 编译输出
+*.o
+build/*.o

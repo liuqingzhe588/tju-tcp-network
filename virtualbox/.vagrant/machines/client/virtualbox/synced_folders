@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant/tju_tcp":{"guestpath":"/vagrant/tju_tcp","hostpath":"C:/Users/liuqingzhe/Desktop/homework/network/virtualbox/tju_tcp","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/liuqingzhe/Desktop/homework/network/virtualbox","disabled":false,"__vagrantfile":true}}}
